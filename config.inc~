@@ -212,16 +212,16 @@
 
 
 %%% Widows&orphans (sieroty i wdowy)
-%!postproc(html)	:	(\s+[aiouwz])\s+	 \1&nbsp;
+%!postproc(html)		:	(\s+[aiouwz])\s+	 \1&nbsp;
 %!postproc(xhtml)	:	(^|\s+[aiouwz])\s+	 \1&nbsp;
 %!postproc(tex)		:	(^|\s+[aiouwz])\s+'	 \1~
 
 %%% Subscript & Superscript
 % The ^ need to be escaped by \
-%!postproc(html):		'\^\^(.*?)\^\^'		'<sup>\1</sup>'
-%!postproc(html):		'__(.*?)__'		'<sub>\1</sub>'
-%!postproc(xhtml):		'\^\^(.*?)\^\^'		'<sup>\1</sup>'
-%!postproc(xhtml):		'__(.*?)__'		'<sub>\1</sub>'
+%!postproc(html):  '\^\^(.*?)\^\^'	'<sup>\1</sup>'
+%!postproc(html):  '__(.*?)__'	'<sub>\1</sub>'
+%!postproc(xhtml):  '\^\^(.*?)\^\^'	'<sup>\1</sup>'
+%!postproc(xhtml):  '__(.*?)__'	'<sub>\1</sub>'
 
 
 %%%%
