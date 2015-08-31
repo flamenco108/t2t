@@ -10,7 +10,9 @@ It's a bash script. If I learn to code in python, I will try to rewrite it, but 
 
 ### It's for html & xhtml
 
-The main purpose of this script is to create footnotes (or rather, endnotes, as they appear at the end of the file) for html and xhtml target formats. For LaTeX target there is separate %!postproc rule in my config file. Secondary purpose is to shorten the unconvinient command `txt2tags` just to `t2t`, although it can be done by `alias` command in shell. But alias will not attach the fully prepared config file and css-style. Well, txt2tags can do it by itself, but not it's not so funny to use built-in options of the program doesn't it?
+The main purpose of this script was to create footnotes (or rather endnotes) for xhtml and html output of the txt2tags converted files. But lately I have changed the approach and connected it with the [pandoc](http://pandoc.org/). So, there are some more possibilities.
+
+Secondary purpose is to shorten the unconvinient command `txt2tags` just to `t2t`, although it can be done by `alias` command in shell. But alias will not attach the fully prepared config file and css-style. Well, txt2tags can do it by itself, but not it's not so funny to use built-in options of the program doesn't it?
 
 So, in next generations of the script I'm going to add my config file and css to be automagically, optionally attached to the document.
 
