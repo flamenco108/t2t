@@ -35,3 +35,7 @@ to the txt2tags command. But if you chose the above targets, you can also chose 
 * `./t2t.sh -t moin FILE` -> will pass it to `txt2tags -t moin FILE`
 * `./t2t.sh -t html FILE` -> will pass it to `txt2tags -t html FILE`
 * `./t2t.sh -t html -p FILE` -> first will find the footnotes **(())** and then change them into proper notation for awk script, and then will pass it to `txt2tags -t html FILE`
+* `./t2t.sh -t epub -p FILE -> first will find the footnotes >> (()) <<`
+* `./t2t.sh -t epub FILE -> it will converted to mardown and then converted`
+
+
